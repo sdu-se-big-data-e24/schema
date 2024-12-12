@@ -1,0 +1,155 @@
+{
+    "type": "record",
+    "name": "Production and Consumption - Settlement",
+    "fields": [
+        {
+            "name": "timestamp",
+            "type": "string",
+            "logicalType": "timestamp-millis",
+            "doc": "Time of the "
+        },
+        {
+            "name": "PriceArea",
+            "type": {
+                "type": "enum",
+                "name": "SectorType",
+                "symbols": [
+                    "DK",
+                    "DK1",
+                    "DK2",
+                    "DE",
+                    "SE3",
+                    "SE4",
+                    "NO2",
+                    "NL"
+                ]
+            },
+            "doc": "Bidding zone, DK1 is west of the Great Belt and DK2 is east of the Great Belt"
+        },
+        {
+            "name": "CentralPowerMWh",
+            "type": "float",
+            "doc": "Electricity production from central thermal power plants."
+        },
+        {
+            "name": "LocalPowerMWh",
+            "type": "float",
+            "doc": "Sum of production from local Combined Heat and Power units (CHP)."
+        },
+        {
+            "name": "CommercialPowerMWh",
+            "type": "float",
+            "doc": "Commercial power plant not only operates to deliver power to grid, but mainly serve other purposes. This could be waste incineration or any other process, where the electricity production could be considered as a bi-product."
+        },
+        {
+            "name": "LocalPowerSelfConMWh",
+            "type": "float",
+            "doc": "Production from commercial power plants, that is not delivered to the grid. Named before commercial power was separated from Local power, therefor the confusing DB name."
+        },
+        {
+            "name": "OffshoreWindLt100MW_MWh",
+            "type": "float",
+            "doc": "Production from Offshore wind power plants with an installed capacity under 100 MW."
+        },
+        {
+            "name": "OffshoreWindGe100MW_MWh",
+            "type": "float",
+            "doc": "Production from Offshore wind power plants with an installed capacity greater or equal to 100 MW."
+        },
+        {
+            "name": "OnshoreWindLt50kW_MWh",
+            "type": "float",
+            "doc": "Production from onshore wind power generators with an installed capacity under 50 kW"
+        },
+        {
+            "name": "OnshoreWindGe50kW_MWh",
+            "type": "float",
+            "doc": "Production from onshore wind power generators with an installed capacity greater or equal to 50 kW."
+        },
+        {
+            "name": "HydroPowerMWh",
+            "type": "float",
+            "doc": "Production from Hydro power."
+        },
+        {
+            "name": "SolarPowerLt10kW_MWh",
+            "type": "float",
+            "doc": "Production from solar panels with an installed capacity below 10 kW."
+        },
+        {
+            "name": "SolarPowerGe10Lt40kW_MWh",
+            "type": "float",
+            "doc": "Production from solar panels with an installed capacity between 10 and 40 kW (10 kW included)."
+        },
+        {
+            "name": "SolarPowerGe40kW_MWh",
+            "type": "float",
+            "doc": "Production from solar panels with an installed capacity greater than, or equal to 40 kW."
+        },
+        {
+            "name": "SolarPowerSelfConMWh",
+            "type": "float",
+            "doc": "The power created by solar but consumed on site, thus never released to the grid"
+        },
+        {
+            "name": "UnknownProdMWh",
+            "type": "float",
+            "doc": "Production without technology information."
+        },
+        {
+            "name": "ExchangeNO_MWh",
+            "type": "float",
+            "doc": "Exchange of Energy to Norway. Negative values are Export, positive values are import."
+        },
+        {
+            "name": "ExchangeSE_MWh",
+            "type": "float",
+            "doc": "Exchange of Energy to Sweden. Negative values are export, positive values are import."
+        },
+        {
+            "name": "ExchangeGE_MWh",
+            "type": "float",
+            "doc": "Exchange of Energy to Germany. Negative values are Export, positive values are import."
+        },
+        {
+            "name": "ExchangeNL_MWh",
+            "type": "float",
+            "doc": "Exchange of Energy to the Netherlands. Negative values are Export, positive values are import."
+        },
+        {
+            "name": "ExchangeGB_MWh",
+            "type": "float",
+            "doc": "Exchange of Energy to Great Britain. Negative values are Export, positive values are import."
+        },
+        {
+            "name": "ExchangeGreatBelt_MWh",
+            "type": "float",
+            "doc": "Exchange of Energy over the Great Belt connection. Negative values are Export, positive values are import."
+        },
+        {
+            "name": "GrossConsumptionMWh",
+            "type": "float",
+            "doc": "The total Gross consumption including losses in the electricity grid. Calculated as sum of all production including self-consumption plus sum of exchange."
+        },
+        {
+            "name": "GridLossTransmissionMWh",
+            "type": "float",
+            "doc": "Do not include interconnectors, but includes the Great belt connection."
+        },
+        {
+            "name": "GridLossInterconnectorsMWh",
+            "type": "float",
+            "doc": "Grid losses on interconnectors."
+        },
+        {
+            "name": "GridLossDistributionMWh",
+            "type": "float",
+            "doc": "Losses in the distribution grid."
+        },
+        {
+            "name": "PowerToHeatMWh",
+            "type": "float",
+            "doc": "Conversion of Electricity to heat, often in district heating systems."
+        }
+    ]
+}

@@ -1,0 +1,196 @@
+{
+    "type": "record",
+    "name": "Consumption per Industry, Public and Private, Municipality and Hour",
+    "fields": [
+      {
+        "name": "ChargeOwner",
+        "type": "string",
+        "doc": "Charge owner is the company who claims the charge."
+      },
+      {
+        "name": "GLN_Number",
+        "type": "string",
+        "doc": "Global Location Number (GLN) is the identification key to identify physical locations or legal entities."
+      },
+      {
+        "name": "ChargeType",
+        "type": {
+            "type": "enum",
+            "name": "ChargeType",
+            "symbols": [
+              "D01",
+              "D02",
+              "D03"
+            ]
+          },
+        "doc": "The type of charge: D01=Subscription, D02=Fee, D03=Tariff."
+      },
+      {
+        "name": "ChargeTypeCode",
+        "type": "string",
+        "doc": "ID of the actor."
+      },
+      {
+        "name": "Note",
+        "type": "string",
+        "doc": "Descriptive note."
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "doc": "Detailed description."
+      },
+      {
+        "name": "ValidFrom",
+        "type": "string",
+        "logicalType": "date",
+        "doc": "Valid From"
+      },
+      {
+        "name": "ValidTo",
+        "type": "string",
+        "logicalType": "date",
+        "doc": "Valid To"
+      },
+      {
+        "name": "string",
+        "type": "VATClass",
+        "doc": "VAT Class - either VAT or no VAT."
+      },
+      {
+        "name": "Price1",
+        "type": "long",
+        "doc": "Price in the first hour of the day."
+      },
+      {
+        "name": "Price2",
+        "type": "long",
+        "doc": "Price in the 2nd hour of the day."
+      },
+      {
+        "name": "Price3",
+        "type": "long",
+        "doc": "Price in the 3rd hour of the day."
+      },
+      {
+        "name": "Price4",
+        "type": "long",
+        "doc": "Price in the 4th hour of the day."
+      },
+      {
+        "name": "Price5",
+        "type": "long",
+        "doc": "Price in the 5th hour of the day."
+      },
+      {
+        "name": "Price6",
+        "type": "long",
+        "doc": "Price in the 6th hour of the day."
+      },
+      {
+        "name": "Price7",
+        "type": "long",
+        "doc": "Price in the 7th hour of the day."
+      },
+      {
+        "name": "Price8",
+        "type": "long",
+        "doc": "Price in the 8th hour of the day."
+      },
+      {
+        "name": "Price9",
+        "type": "long",
+        "doc": "Price in the 9th hour of the day."
+      },
+      {
+        "name": "Price10",
+        "type": "long",
+        "doc": "Price in the 10th hour of the day."
+      },
+      {
+        "name": "Price11",
+        "type": "long",
+        "doc": "Price in the 11th hour of the day."
+      },
+      {
+        "name": "Price12",
+        "type": "long",
+        "doc": "Price in the 12th hour of the day."
+      },
+      {
+        "name": "Price13",
+        "type": "long",
+        "doc": "Price in the 13th hour of the day."
+      },
+      {
+        "name": "Price14",
+        "type": "long",
+        "doc": "Price in the 14th hour of the day."
+      },
+      {
+        "name": "Price15",
+        "type": "long",
+        "doc": "Price in the 15th hour of the day."
+      },
+      {
+        "name": "Price16",
+        "type": "long",
+        "doc": "Price in the 16th hour of the day."
+      },
+      {
+        "name": "Price17",
+        "type": "long",
+        "doc": "Price in the 17th hour of the day."
+      },
+      {
+        "name": "Price18",
+        "type": "long",
+        "doc": "Price in the 18th hour of the day."
+      },
+      {
+        "name": "Price19",
+        "type": "long",
+        "doc": "Price in the 19th hour of the day."
+      },
+      {
+        "name": "Price10",
+        "type": "long",
+        "doc": "Price in the 20th hour of the day."
+      },
+      {
+        "name": "Price21",
+        "type": "long",
+        "doc": "Price in the 21th hour of the day."
+      },
+      {
+        "name": "Price22",
+        "type": "long",
+        "doc": "Price in the 22th hour of the day."
+      },
+      {
+        "name": "Price23",
+        "type": "long",
+        "doc": "Price in the 23th hour of the day."
+      },
+      {
+        "name": "Price24",
+        "type": "long",
+        "doc": "Price in the 24th hour of the day."
+      },
+      {
+        "name": "TransparentInvoicing",
+        "type": "integer",
+        "doc": "Indicates if the electricity retailer has to show the price element on the invoice."
+      },
+      {
+        "name": "TaxIndicator",
+        "type": "integer",
+        "doc": "Indicates if a tariff is a charge or not."
+      },
+      {
+        "name": "Resolution of the values",
+        "type": "string",
+        "doc": "Resolution of the values"
+      }
+    ]
+  }

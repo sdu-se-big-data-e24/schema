@@ -1,0 +1,128 @@
+{
+    "type": "record",
+    "name": "Consumption per Industry, Public and Private, Municipality and Hour",
+    "fields": [
+      {
+        "name": "Minutes1UTC",
+        "type": "string",
+        "logicalType": "timestamp",
+        "doc": "UTC timestamp at which the values are valid."
+      },
+      {
+        "name": "Minutes1DK",
+        "type": "string",
+        "logicalType": "timestamp",
+        "doc": "Timestamp (in the Danish time zone) at which the values are valid."
+      },
+      {
+        "name": "CO2Emission",
+        "type": "float",
+        "doc": "The estimated value for the emission in g/kWh for the relevant 5 minutes period."
+      },
+      {
+        "name": "ProductionGe100MW",
+        "type": "float",
+        "doc": "Production on plants with a capacity greater than or equal to 100MW. Data based on energy measurements."
+      },
+      {
+        "name": "ProductionLt100MW",
+        "type": "float",
+        "doc": "Production on plants with a capacity lower than 100MW."
+      },
+      {
+        "name": "SolarPower",
+        "type": "float",
+        "doc": "Electricity production from Solar power."
+      },
+      {
+        "name": "OffshoreWindPower",
+        "type": "float",
+        "doc": "Electricity production from offshore wind power."
+      },
+      {
+        "name": "OnshoreWindPower",
+        "type": "float",
+        "doc": "Average power production from onshore wind power."
+      },
+      {
+        "name": "Exchange_Sum",
+        "type": "float",
+        "doc": "Total exchange of electricity."
+      },
+      {
+        "name": "Exchange_DK1_DE",
+        "type": "float",
+        "doc": "Exchange between DK1 and Germany."
+      },
+      {
+        "name": "Exchange_DK1_NL",
+        "type": "float",
+        "doc": "Exchange between DK1 and the Nederlands."
+      },
+      {
+        "name": "Exchange_DK1_GB",
+        "type": "float",
+        "doc": "Exchange between DK1 and Great Britain."
+      },
+      {
+        "name": "Exchange_DK1_NO",
+        "type": "float",
+        "doc": "Exchange between DK1 and Norway."
+      },
+      {
+        "name": "Exchange_DK1_SE",
+        "type": "float",
+        "doc": "Exchange between DK1 and Sweden."
+      },
+      {
+        "name": "Exchange_DK1_DK2",
+        "type": "float",
+        "doc": "Exchange between DK1 (Jutland) and DK2 (Zealand)."
+      },
+      {
+        "name": "Exchange_DK2_DE",
+        "type": "float",
+        "doc": "Exchange between DK2 and Germany."
+      },
+      {
+        "name": "Exchange_DK2_SE",
+        "type": "float",
+        "doc": "Exchange between DK2 and Sweden."
+      },
+      {
+        "name": "Exchange_Bornholm_SE",
+        "type": "float",
+        "doc": "Exchange between Bornholm and Sweden."
+      },
+      {
+        "name": "aFRR_ActivatedDK1",
+        "type": "float",
+        "doc": "Activated aFRR regulation in MW for price area DK1. Positive value indicates upward regulation need. Negative value indicates downward regulation need."
+      },
+      {
+        "name": "aFRR_ActivatedDK2",
+        "type": "float",
+        "doc": "Activated aFRR regulation in MW for price area DK2. Positive value indicates upward regulation need. Negative value indicates downward regulation need."
+      },
+      {
+        "name": "mFRR_ActivatedDK1",
+        "type": "float",
+        "doc": "Activated mFRR regulation in MW for price area DK1. Positive value indicates upward regulation need. Negative value indicates downward regulation need."
+      },
+      {
+        "name": "mFRR_ActivatedDK2",
+        "type": "float",
+        "doc": "Activated mFRR regulation in MW for price area DK2. Positive value indicates upward regulation need. Negative value indicates downward regulation need."
+      },
+      {
+        "name": "ImbalanceDK1",
+        "type": "float",
+        "doc": "Total system imbalances in MW for price area DK1. Positive value indicates surplus of power i.e., a down regulation need. Negative value indicates deficit of power i.e., an up regulation need."
+      },
+      {
+        "name": "ImbalanceDK2",
+        "type": "float",
+        "doc": "Total system imbalances in MW for price area DK2. Positive value indicates surplus of power i.e., a down regulation need. Negative value indicates deficit of power i.e., an up regulation need."
+      }
+    ]
+  }

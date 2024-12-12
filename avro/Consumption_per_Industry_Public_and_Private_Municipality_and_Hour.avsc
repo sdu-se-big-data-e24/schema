@@ -1,0 +1,35 @@
+{
+  "type": "record",
+  "name": "Consumption per Industry, Public and Private, Municipality and Hour",
+  "fields": [
+    {
+      "name": "municipality",
+      "type": "string",
+      "doc": "Kommunekode eller navn"
+    },
+    {
+      "name": "sector",
+      "type": {
+        "type": "enum",
+        "name": "SectorType",
+        "symbols": [
+          "INDUSTRY",
+          "PUBLIC",
+          "PRIVATE"
+        ]
+      },
+      "doc": "Måling for Privat, Erhverv eller Offentligt"
+    },
+    {
+      "name": "timestamp",
+      "type": "string",
+      "logicalType": "timestamp-millis",
+      "doc": "Tidspunkt for måling"
+    },
+    {
+      "name": "consumption_kWh",
+      "type": "double",
+      "doc": "Forbrug i kWh"
+    }
+  ]
+}
