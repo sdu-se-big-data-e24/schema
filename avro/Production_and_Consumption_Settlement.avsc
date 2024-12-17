@@ -1,6 +1,6 @@
 {
     "type": "record",
-    "name": "Production and Consumption - Settlement",
+    "name": "production_and_consumption_settlement",
     "fields": [
         {
             "name": "timestamp",
