@@ -53,8 +53,8 @@
         "doc": "Valid To"
       },
       {
-        "name": "string",
-        "type": "VATClass",
+        "name": "VATClass",
+        "type": "string",
         "doc": "VAT Class - either VAT or no VAT."
       },
       {
