@@ -1,5 +1,5 @@
 # Consumption per Industry, Public and Private, Municipality and Hour
-File: `Consumption_per_Industry_Public_and_Private_Municipality_and_Hour.avsc`
+File: `consumption_per_industry_public_and_private_municipality_and_hour.avsc`
 Source:  https://energidataservice.dk/tso-electricity/ConsumptionIndustry
 
 | **Name**            | **Code name**  | **Type** | **Unit** | **Example**         | **Decode key** |
@@ -12,7 +12,7 @@ Source:  https://energidataservice.dk/tso-electricity/ConsumptionIndustry
 
 
 # Production and Consumption - Settlement
-File `Production_and_Consumption_Settlement.avsc`
+File `production_and_consumption_settlement.avsc`
 Source: https://energidataservice.dk/tso-electricity/ProductionConsumptionSettlement
 | **Name**                          | **Code name**            | **Type** | **Unit**     | **Example**         | **Decode key**                      |
 |-----------------------------------|--------------------------|----------|--------------|---------------------|-------------------------------------|
@@ -46,7 +46,7 @@ Source: https://energidataservice.dk/tso-electricity/ProductionConsumptionSettle
 | Power To Heat                     | PowerToHeatMWh           | integer  | MWh          | 1254                | 9,1 |
 
 # Datahub Price List
-File: `Datahub_Price_List.avsc`
+File: `datahub_price_list.avsc`
 Source: https://energidataservice.dk/tso-electricity/DatahubPricelist
 
 | **Name**              | **Code name**        | **Type** | **Unit** | **Example**                          | **Decode key**                                                  |
@@ -69,5 +69,5 @@ Source: https://energidataservice.dk/tso-electricity/DatahubPricelist
 
 
 # Power System Right Now
-File: `Power_System_Right_Now.avsc`
+File: `power_system_right_now.avsc`
 Source: https://energidataservice.dk/tso-electricity/PowerSystemRightNow
