@@ -3,12 +3,12 @@
   "name": "consumption_per_industry_public_and_private_municipality_and_hour",
   "fields": [
     {
-      "name": "municipality",
+      "name": "MunicipalityNo",
       "type": "string",
       "doc": "Kommunekode eller navn"
     },
     {
-      "name": "sector",
+      "name": "Branche",
       "type": {
         "type": "enum",
         "name": "SectorType",
@@ -27,7 +27,7 @@
       "doc": "Tidspunkt for måling"
     },
     {
-      "name": "consumption_kWh",
+      "name": "ConsumptionkWh",
       "type": "double",
       "doc": "Forbrug i kWh"
     }
