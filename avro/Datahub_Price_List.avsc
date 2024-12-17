@@ -1,6 +1,6 @@
 {
     "type": "record",
-    "name": "Consumption_per_Industry,_Public_and_Private,_Municipality_and_Hour",
+    "name": "datahub_price_list",
     "fields": [
       {
         "name": "ChargeOwner",

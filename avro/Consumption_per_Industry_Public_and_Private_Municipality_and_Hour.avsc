@@ -1,6 +1,6 @@
 {
   "type": "record",
-  "name": "Consumption_per_Industry_Public_and_Private_Municipality_and_Hour",
+  "name": "consumption_per_industry_public_and_private_municipality_and_hour",
   "fields": [
     {
       "name": "municipality",
