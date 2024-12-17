@@ -153,7 +153,7 @@
         "doc": "Price in the 19th hour of the day."
       },
       {
-        "name": "Price10",
+        "name": "Price20",
         "type": "long",
         "doc": "Price in the 20th hour of the day."
       },
@@ -179,16 +179,16 @@
       },
       {
         "name": "TransparentInvoicing",
-        "type": "integer",
+        "type": "int",
         "doc": "Indicates if the electricity retailer has to show the price element on the invoice."
       },
       {
         "name": "TaxIndicator",
-        "type": "integer",
+        "type": "int",
         "doc": "Indicates if a tariff is a charge or not."
       },
       {
-        "name": "Resolution of the values",
+        "name": "ResolutionDuration",
         "type": "string",
         "doc": "Resolution of the values"
       }
