@@ -42,7 +42,7 @@
         },
         {
             "name": "CommercialPowerMWh",
-            "type": "float",
+            "type": ["float", "null"],
             "doc": "Commercial power plant not only operates to deliver power to grid, but mainly serve other purposes. This could be waste incineration or any other process, where the electricity production could be considered as a bi-product."
         },
         {
@@ -97,7 +97,7 @@
         },
         {
             "name": "UnknownProdMWh",
-            "type": "float",
+            "type": ["float", "null"],
             "doc": "Production without technology information."
         },
         {
@@ -108,12 +108,12 @@
         },
         {
             "name": "ExchangeSE_MWh",
-            "type": "float",
+            "type": ["float", "null"],
             "doc": "Exchange of Energy to Sweden. Negative values are export, positive values are import."
         },
         {
             "name": "ExchangeGE_MWh",
-            "type": "float",
+            "type": ["float", "null"],
             "doc": "Exchange of Energy to Germany. Negative values are Export, positive values are import."
         },
         {
@@ -145,17 +145,17 @@
         },
         {
             "name": "GridLossInterconnectorsMWh",
-            "type": "float",
+            "type": ["float", "null"],
             "doc": "Grid losses on interconnectors."
         },
         {
             "name": "GridLossDistributionMWh",
-            "type": "float",
+            "type": ["float", "null"],
             "doc": "Losses in the distribution grid."
         },
         {
             "name": "PowerToHeatMWh",
-            "type": "float",
+            "type": ["float", "null"],
             "doc": "Conversion of Electricity to heat, often in district heating systems."
         }
     ]
