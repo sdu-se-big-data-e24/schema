@@ -3,10 +3,14 @@
     "name": "production_and_consumption_settlement",
     "fields": [
         {
-            "name": "timestamp",
+            "name": "HourUTC",
             "type": "string",
-            "logicalType": "timestamp-millis",
-            "doc": "Time of the "
+            "doc": "The UTC time of the record"
+        },
+        {
+            "name": "HourDK",
+            "type": "string",
+            "doc": "The DK time of the record"
         },
         {
             "name": "PriceArea",

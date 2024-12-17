@@ -5,13 +5,11 @@
       {
         "name": "Minutes1UTC",
         "type": "string",
-        "logicalType": "timestamp",
         "doc": "UTC timestamp at which the values are valid."
       },
       {
         "name": "Minutes1DK",
         "type": "string",
-        "logicalType": "timestamp",
         "doc": "Timestamp (in the Danish time zone) at which the values are valid."
       },
       {
