@@ -102,7 +102,7 @@
         },
         {
             "name": "ExchangeNO_MWh",
-            "type": ["float", "null"],
+            "type": ["null", "float"],
             "default": null,
             "doc": "Exchange of Energy to Norway. Negative values are Export, positive values are import."
         },
@@ -118,13 +118,13 @@
         },
         {
             "name": "ExchangeNL_MWh",
-            "type": ["float", "null"],
+            "type": ["null", "float"],
             "default": null,
             "doc": "Exchange of Energy to the Netherlands. Negative values are Export, positive values are import."
         },
         {
             "name": "ExchangeGB_MWh",
-            "type": ["float", "null"],
+            "type": ["null", "float"],
             "default": null,
             "doc": "Exchange of Energy to Great Britain. Negative values are Export, positive values are import."
         },
