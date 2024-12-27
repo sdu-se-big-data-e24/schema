@@ -54,12 +54,12 @@
       },
       {
         "name": "Exchange_DK1_NL",
-        "type": "float",
+        "type": ["float", "null"],
         "doc": "Exchange between DK1 and the Nederlands."
       },
       {
         "name": "Exchange_DK1_GB",
-        "type": "float",
+        "type": ["float", "null"],
         "doc": "Exchange between DK1 and Great Britain."
       },
       {
@@ -94,32 +94,32 @@
       },
       {
         "name": "aFRR_ActivatedDK1",
-        "type": "float",
+        "type": ["float", "null"],
         "doc": "Activated aFRR regulation in MW for price area DK1. Positive value indicates upward regulation need. Negative value indicates downward regulation need."
       },
       {
         "name": "aFRR_ActivatedDK2",
-        "type": "float",
+        "type": ["float", "null"],
         "doc": "Activated aFRR regulation in MW for price area DK2. Positive value indicates upward regulation need. Negative value indicates downward regulation need."
       },
       {
         "name": "mFRR_ActivatedDK1",
-        "type": "float",
+        "type": ["float", "null"],
         "doc": "Activated mFRR regulation in MW for price area DK1. Positive value indicates upward regulation need. Negative value indicates downward regulation need."
       },
       {
         "name": "mFRR_ActivatedDK2",
-        "type": "float",
+        "type": ["float", "null"],
         "doc": "Activated mFRR regulation in MW for price area DK2. Positive value indicates upward regulation need. Negative value indicates downward regulation need."
       },
       {
         "name": "ImbalanceDK1",
-        "type": "float",
+        "type": ["float", "null"],
         "doc": "Total system imbalances in MW for price area DK1. Positive value indicates surplus of power i.e., a down regulation need. Negative value indicates deficit of power i.e., an up regulation need."
       },
       {
         "name": "ImbalanceDK2",
-        "type": "float",
+        "type": ["float", "null"],
         "doc": "Total system imbalances in MW for price area DK2. Positive value indicates surplus of power i.e., a down regulation need. Negative value indicates deficit of power i.e., an up regulation need."
       }
     ]
